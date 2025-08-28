@@ -10,7 +10,7 @@ int main()
     cout<<v[0]<<endl;
 
     //wrong way
-    // vector<int>ve;
+    // vector<int>ve;  // if size is not given then this is wrong way
     // ve[0]=7;
     // cout<<ve[0]<<endl;
 

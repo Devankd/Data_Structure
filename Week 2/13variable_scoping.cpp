@@ -15,6 +15,7 @@ int main()
     {
         int b=15;    // here redefined but in new function
         cout<<b<<endl;  //15  // scope of variable b=15 is inside of if curly braces only and outside of this value variable b=10 which is inside of main function
+        b=16;
     }
     cout<<b;     //10     
     return 0;

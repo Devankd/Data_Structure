@@ -4,7 +4,7 @@
 #include<cmath>
 using namespace std;
 // division method- 1)divide number by 2
-                    // 2) store reminder (That will be bit in binary number)
+                    // 2) store remainder (That will be bit in binary number)
                     // 3)repeat above steps with the quotient until quotient becomes less than 2
                     // 4) reverse the bit obtained 
 

@@ -13,11 +13,11 @@ int binarysearch(int ar[],int size,int target)
    while(start<= end)
    {
        mid=start-(start-end)/2;
-        if(target==ar[mid])
+        if(target==ar[mid])     
         {//element found
          return mid;
         }
-        else if(target>ar[mid])
+        else if(target>ar[mid])   // always write target before in  (target>ar[mid]) and arr[mid] at end easy to learn 
         {// search in right of mid
             start=mid+1;
         }

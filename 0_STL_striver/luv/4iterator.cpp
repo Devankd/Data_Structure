@@ -14,10 +14,10 @@ int main()
     }
     cout<<endl;
 
-    // iterators
+    // iterators  -> vector<int> ::iterator it;
 
-    vector<int> ::iterator it = V.begin();   
-    cout<< (*(it+1)) << endl;   // dereferencing ie printing second element of v = 6
+    vector<int> ::iterator it = V.begin();   // v.begin()= v[0];
+    cout<< (*(it+1)) << endl;   // dereferencing like pointer ie printing second element of v = 6
 
     
     for( it = V.begin(); it != V.end(); it++)
@@ -26,21 +26,22 @@ int main()
     }
 
     
-    // .begin()- first element/ 0th index
-    // .end() - just after last element / next to last element
+    // .begin()- first element/ 0th index  // it.begin()
+    // .end() - just after last element / next to last element  /it.end()
 
     cout<<endl;
     it++; // always used
     it + 1; // not used
 
 
-    // because it++ denotes next location for all like array, sets, map etc
-    // it + 1 denotes lext location only in array, vectoretc but  it is invalid location for map, sets
+    // because it++ means next iterator [for all like array, sets, map etc]
+    // it + 1 denotes next location [only in array, vector etc(continous memory location) but  it is invalid location for map, sets(map,set are not on continuous memory locatoin)]
     
     vector< pair<int,int> > v_p = {{1,2},{2,3}, {3,4}};
     vector<pair<int,int> > :: iterator ite;
 
     // printing pair using iterator
+    // ite is denoting pair
 
     for(ite = v_p.begin(); ite != v_p.end(); ite++)
     {
@@ -54,6 +55,4 @@ int main()
        cout<< (ite->first) <<" "<< (ite->second) << endl;
     }
     // (*it).first <=> (it->first)
-
-
  }

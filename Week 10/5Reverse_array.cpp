@@ -16,7 +16,7 @@ int main()
     {
         n[i]=st.top();
         st.pop();
-        i++;
+    i++;
     }
     for(i=0;i<5;i++)
     {
@@ -24,10 +24,12 @@ int main()
     }
 }
 
+
+
 /*
 class Solution {
 public:
-    void reverseString(vector<char>& s) {
+    void reverseString(vector<char>&s) {
         // using stack
         stack<char>st;
 

@@ -53,7 +53,7 @@ int main()
     //     int n;
     //     cout<<"Enter the number of column/element in row "<<i<<": ";
     //     cin>>n;
-    //     v.push_back(vector<int> ());  // this line changed
+    //     v.push_back(vector<int> ());  // this line changed  //in vector a empty vector is added, below in empty vector v[i] velue is added
     //     for(int j=0; j<n; j++)
     //     {
     //        int x;

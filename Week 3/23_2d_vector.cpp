@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    vector<vector<int> >v;  // keep space between two >, otherwise it throws some error
+    vector<vector<int>>v;  // keep space between two >
 
     vector<int>a{1,2,3};
     vector<int>b{1,8,7};

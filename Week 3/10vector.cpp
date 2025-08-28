@@ -8,7 +8,9 @@ int main()
     //initialisation
     vector<int>arr; 
     vector<int>ar(10,20);  //{20,20,20,20,20,20,20,20,20,20}
-    vector<int>a(5);   // {0,0,0,0,0}  
+    vector<int>a(5);   // {0,0,0,0,0} 
+    vector<int>arrr={5,6,7,5}; //{5,6,7,5}
+    vector<int>ara{5,6,7,5,8};   //{5,6,7,5,8}
 
     //capacity= total number of elements which we can be store
     // size= total number of stored element

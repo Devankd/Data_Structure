@@ -12,4 +12,5 @@ int main()
            cout<<str.substr(i,j)<<" ";
         }
     }
+    
 }

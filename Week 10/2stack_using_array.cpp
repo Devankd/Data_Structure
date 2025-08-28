@@ -18,10 +18,10 @@ class Stack
            this-> size= size;
            top = -1;
     }
-
+    
     // Behaviour
     //function
-
+    
     void push(int data){
         if( top< size-1)
         {
@@ -49,7 +49,6 @@ class Stack
             //stack is empty
             cout<<"stack Under flow";
         }
-
     }
 
     

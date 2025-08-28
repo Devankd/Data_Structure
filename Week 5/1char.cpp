@@ -16,10 +16,6 @@ int main()
     cin>>a;     // one way to take input in an char
     cin>>b[2];  //here in char by both way we can take input 
                //but in int only input can be taken only indexwise
-
     cout<<a<<endl;
     cout<<b[2]<<endl;
-
-    
-
 }

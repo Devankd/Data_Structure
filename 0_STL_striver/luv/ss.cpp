@@ -19,6 +19,5 @@ int main() {
 
         std::cout << findOriginalAmount(n, x) << std::endl;
     }
-
     return 0;
 }

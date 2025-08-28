@@ -10,7 +10,7 @@ int main()
     
     auto firstocc=lower_bound(v.begin(),v.end(),4);  // this will return some value of memory location of first 4 in form of 3006 etc. 
 
-    cout<< "index of last occurence is "<<(firstocc-v.begin())<<endl;   // it means index number of firstocc
+    cout<< "index of first occurence is "<<(firstocc-v.begin())<<endl;   // it means index number of firstocc
     // 4034-4030=1 which denote number of digit
      
     auto lastocc=upper_bound(v.begin(),v.end(),4); 

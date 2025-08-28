@@ -28,5 +28,4 @@ int main()
     cout << (*p + *q + *r) << endl;  // 30
     cout << (*p)*2 + (*r)*3 << endl;   //50
     cout << (*p/2) - (*r)/2  << endl;   //0
-  
 }

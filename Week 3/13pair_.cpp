@@ -2,15 +2,6 @@
 #include<vector>
 using namespace std;
 
-int find_unique(vector<int>arr)
-{
-    int ans=0;
-    for(int i=0;i<arr.size();i++)
-    {
-        ans=arr[i]^ans;  //^ is xor operand 
-    }
-    return ans;
-}
 
 
 int main()

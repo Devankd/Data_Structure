@@ -4,7 +4,7 @@ using namespace std;
 
 string removeOccurence(string s, string part)
 {
-    int pos= s.find(part);   // pos is the index from where "part" string start in string "s" 
+    int pos= s.find(part);   // pos is the index from where "part" string start in string "s". If the substring(part) is not found, it returns std::string::npos, a special constant representing "not found"
     while(pos != string::npos )  // npos tells that the string (part), which you are searching in base string(s), is not present in base string (s)
     {
         s.erase(pos, part.length());  // erase "part" from "s"

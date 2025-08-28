@@ -10,13 +10,14 @@ void print(map<int, string> &m)
     }
 }
 
-
+// map has unique key
+// to store same key for multiple value use multimap. multimap<int,int>m; every else is same
 int main()
 {
-
-    // map is a data structure which store key value pair
-   
-    map<int, string > m; // int is key  and string is value
+    // map (ordered_map) uses tree for inbuild implimentation and unordered_map uses Hash table for inbuild implimentation
+    // map is a data structure which store key and value pair
+   // map stores in sortted order of key
+    map<int, string > m; // int is key  and string is value 
     m[1] = "abc";   // time complexity= O(log(n))  , time complexity to insert value in map is O(log(n))
     m[5] = "cdc";
     m[3] = "acd";
@@ -46,7 +47,5 @@ int main()
 
     // printing using function
     print(m);     // printing by using function
-    
-
 
 }

@@ -13,5 +13,5 @@ int main()
 }
 // for getline delimiter is enter key or delemated when defined indeces get used
 // getline takes whole string with spaces
-// it only do not take enter bout will take space
+// it only do not take enter but will take space
 

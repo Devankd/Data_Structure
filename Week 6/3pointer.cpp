@@ -15,7 +15,7 @@ int main()
     cout<< &p << endl<< endl;      // 204
     
     cout<< *arr << endl;   
-    cout<< arr[0] << endl;  // arr is the pointer to first location of the array
+    cout<< arr[0] <<"hey"<< endl;  // arr is the pointer to first location of the array
     cout<< *arr + 1 << endl; 
     cout<< (*arr) + 1 << endl; 
     cout<< (*arr + 1) << endl; 

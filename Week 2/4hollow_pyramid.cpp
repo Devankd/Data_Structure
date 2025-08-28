@@ -16,6 +16,7 @@ int main()
         for(int col=0;col<2*row+1;col++)
         {   if(col==0 || col==2*row)
             cout<<"*";  
+            
             else{cout<<" ";}
         }
         cout<<endl;
